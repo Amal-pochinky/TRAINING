@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<meta lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .contr {
+            display: grid;
+            height: auto;
+            width: auto;
+            grid-template-rows: .1fr .14fr 2fr .2fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "one one one"
+                "two two two"
+                "three three four"
+                "five five five";
+        }
+
+        .one {
+            background-color: #333333;
+            grid-area: one;
+
+        }
+
+        .two {
+            background-color: #666666;
+            grid-area: two;
+
+
+
+        }
+
+        .two a {
+            width: 70px;
+            border-right: 2px solid #333333;
+            text-decoration: none;
+            float: left;
+            padding: 14px 0px;
+            font-size: 20px;
+            margin-left: 15px;
+            color: white;
+        }
+
+
+        .three {
+            background-color: rgb(255, 255, 255);
+            grid-area: three;
+
+
+        }
+
+        .th {
+
+            height: 12em;
+
+        }
+
+        .thh {
+
+            height: 12em;
+        }
+
+        .thhh {
+            height: 16em;
+        }
+
+        .th1 {
+            float: left;
+            margin: 33px 20px;
+            width: 8em;
+            height: 8em;
+            background-color: #E5E5E5;
+        }
+
+        .thh1 {
+            float: left;
+            margin: 33px 20px;
+            width: 8em;
+            height: 8em;
+            background-color: #E5E5E5;
+        }
+
+        .thhh1 {
+            float: left;
+            margin: 33px 20px;
+            width: 8em;
+            height: 8em;
+            background-color: #E5E5E5;
+        }
+
+        .th2 {
+            float: left;
+            margin: 33px 10px;
+            width: 70%;
+            height: 8em;
+
+
+        }
+
+        .thh2 {
+            float: left;
+            margin: 33px 10px;
+            width: 70%;
+            height: 8em;
+
+        }
+
+        .thhh2 {
+            float: left;
+            margin: 33px 10px;
+            width: 70%;
+            height: 8em;
+
+        }
+
+        .th2 h2 {
+            font-family: roboto;
+            margin: 0;
+        }
+
+        .thh2 h2 {
+            font-family: roboto;
+            margin: 0;
+        }
+
+        .thhh2 h2 {
+            font-family: roboto;
+            margin: 0;
+        }
+
+        .th2,
+        .thh2,
+        .thhh2 p {
+            line-height: 20px;
+        }
+
+        .th2 a {
+            text-decoration: none;
+            color: #F18327;
+            font-weight: 700;
+            font-family: roboto;
+        }
+
+        .thh2 a {
+            text-decoration: none;
+            color: #F18327;
+            font-weight: 700;
+            font-family: roboto;
+        }
+
+        .thhh2 a {
+            text-decoration: none;
+            color: #F18327;
+            font-weight: 700;
+            font-family: roboto;
+        }
+
+
+        .four {
+            background-color: #E5E5E5;
+            grid-area: four;
+        }
+
+        .four h2 {
+            font-family: roboto;
+            margin: 1em 1em;
+        }
+
+        .four hr {
+            width: 88%;
+
+        }
+
+        .fl li {
+            list-style-type: none;
+            font-family: roboto;
+            margin-top: 6px;
+        }
+
+        .fl a {
+            font-weight: 800;
+            color: #F18327;
+            text-decoration: none;
+        }
+        .four p{
+            padding: 15px;
+        }
+
+        .five {
+            background-color: #333333;
+            grid-area: five;
+        }
+
+        h1 {
+            color: white;
+            float: left;
+            font-family: roboto;
+            margin-left: 10px;
+        }
+
+        h4 {
+            text-align: center;
+            color: white;
+        }
+
+        .fv {
+            font-size: 50px;
+            /* padding:1px 0; */
+            margin-left: 4px;
+            color: #F18327;
+        }
+
+        hr {
+            width: 95%;
+        }
+
+        /* li a {
+
+    
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+li:not(.flnk){
+  
+    list-style-type: none;
+    
+    float: left; 
+    margin-left: 40px; 
+}
+.flnk{
+    position:absolute;
+    left:15px;
+    list-style-type: none;
+} */
+    </style>
+</head>
+
+<body>
+    <div class="contr">
+        <div class="one">
+            <h1 style="padding: 25px 0;">HTML </h1>
+            <h1 class="fv">5</h1>
+        </div>
+        <div class="two">
+            <!-- <ul>
+                <li class="flnk"><a href="#">Link 1</span></a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul> -->
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </div>
+        <div class="three">
+            <div class="th">
+                <div class="th1">
+
+                </div>
+                <div class="th2">
+                    <h2>This is a Loream Ipsum Heading</h2>
+                    <p> Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos ...</p>
+                    <a href="#">Read More</a>
+                </div>
+
+            </div>
+            <hr />
+            <div class="thh">
+                <div class="thh1">
+
+                </div>
+                <div class="thh2">
+                    <h2>This is a Loream Ipsum Heading</h2>
+                    <p> Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos ...</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <hr />
+            <div class="thhh">
+                <div class="thhh1">
+
+                </div>
+                <div class="thhh2">
+                    <h2>This is a Loream Ipsum Heading</h2>
+                    <p> Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos ...</p>
+                    <a href="#">Read More</a>
+                </div><br>
+                <hr />
+            </div>
+
+        </div>
+
+        <div class="four">
+            <h2>Sidebar Links</h2>
+            <hr />
+            <div class="fl">
+                <ul>
+                    <li><a href="#">Link 1</span></a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </div>
+            <h2>Other Widgets</h2>
+            <hr />
+            <div>
+                <p>
+                    This is Photoshop's version of lorem ipsum. Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+            </div>
+        </div>
+        <div class="five">
+            <h4>Copyright &copy;. All Right Reserved</h4>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

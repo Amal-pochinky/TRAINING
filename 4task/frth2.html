@@ -1,0 +1,246 @@
+<html !DOCTYPE>
+<meta lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .cont {
+      
+      width: auto;
+      height: auto;
+      display: grid;
+      grid-row-gap: 20px;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+        "one"
+        "two"
+        "three";
+
+
+    }
+
+    .one {
+     
+      grid-area: one;
+
+
+    }
+
+    .one img {
+
+      float: left;
+
+    }
+
+    .lst {
+      background-color: #F8F8F8;
+      width: 500px;
+      float: left;
+      height: 300px;
+margin-left: 15em;
+    }
+
+    .two {
+      
+      grid-area: two;
+    }
+    .two img{
+      float: left;
+      margin-left: 15em;
+    }
+    .ov{
+      background-color: #F8F8F8;
+      width: 500px;
+      float: left;
+      height: 300px;
+      
+    }
+    .ov h3{
+      margin-top: 30px;;
+    }
+.ov p{
+  margin-left: 3.2em;
+  line-height: 25px;
+}
+    .three {
+     
+      grid-area: three;
+    }
+.spec{
+  background-color:#F8F8F8 ;
+ 
+      width: 500px;
+      float: left;
+      height: 300px;
+      margin-left: 15em;
+}
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-top: 10px;
+    }
+
+    ul li:before {
+      content: '✓';
+      color: rgb(245, 189, 7);
+      font-weight: 1000;
+      margin-right: 5px;
+    }
+
+    h3 {
+      margin-left: 3.2em;
+    }
+    @media only screen and (max-width:950px){
+
+        /* .cont{
+            grid-row-gap:0px;
+        } */
+        .lst {
+      background-color: #F8F8F8;
+      width: 300px;
+      float: left;
+      height: 350px;
+margin-left: 0;
+    }
+    .one img {
+width:250px;
+height:350px;
+
+}
+.two img{
+      float: left;
+      margin-left: 0em;
+      width:200px;
+    }
+    .ov h3{
+margin-top:8px;
+    }
+    .ov{
+      background-color: #F8F8F8;
+      width: 350px;
+      float: left;
+      height: 300px;
+      line-height: 0px;
+      
+    }
+    .spec{
+  background-color:#F8F8F8 ;
+ 
+      width: 250px;
+      float: left;
+      height: 300px;
+      margin-left: 0em;
+}
+.three img{
+    width:300px;
+}
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container cont">
+    <div class="one">
+      <div class="lst">
+        <h3>Key Features</h3>
+        <ul>
+          <li>
+            Smart Wi-Fi Speaker
+          </li>
+          <li>
+            Connectivity: Aux | Bluetooth | WiFi
+          </li>
+          <li>
+            Alexa Voice Control Support
+          </li>
+          <li>
+            Dimensions - 9.90 x 9.90 x 14.80 cms
+          </li>
+          <li>
+            Powered by Dolby to play, 360 Degree audio with crisp vocals
+          </li>
+          <li>
+            Alexa Communication, Alexa has more than 30,000+
+            skills
+          </li>
+          <li>
+            Voice control your smart home, Voice control your music
+          </li>
+        </ul>
+      </div>
+      <img src="fstpc.png" width="400px" height="300px">
+    </div>
+    <div class="two">
+      <img src="secondpc.png" width="400px" height="300px">
+      <div class="ov">
+        <h3>
+          Overview
+        </h3>
+        <p>
+        All the benefits of Alexa, now with improved sound and a new look. Just ask Alexa to play music, answer
+        questions, make calls and get information, news, sports scores, weather, and more.Alexa, the brain behind Amazon
+        Echo, is built in the cloud, so it is always getting smarter. The more you use Echo, the more Alexa adapts to
+        your speech patterns and vocabulary. Using Alexa is as simple as asking a question – just ask and Alexa will
+        respond instantly.
+      </p>
+      </div>
+    </div>
+    <div class="three">
+      <div class="spec">
+      <h3>Specification</h3>
+      <table>
+       <tr>
+         <td>Model</td>
+         <td>Echo (3rd Gen)</td>
+       </tr>
+       <tr>
+         <td>Brand</td>
+         <td>Amazon</td>
+       </tr>
+       <tr>
+         <td>App Enabled</td>
+         <td>Yes</td>
+        </tr>
+       <tr>
+         <td>Wi-Fi</td>
+         <td>Yes</td>
+       </tr>
+       <tr>
+         <td>
+          Control Home Devices with 
+          Voice
+         </td>
+         <td>
+           Yes
+         </td>
+       </tr>
+       <tr>
+         <td>
+          Voice Assistance
+         </td>
+         <td>Amazon Alexa</td>
+       </tr>
+       <tr>
+         <td>
+           Warranty
+         </td>
+         <td>1 year</td>
+       </tr>
+       <tr>
+         <td>Weight</td>
+         <td>1300 grams</td>
+       </tr>
+      </table>
+    </div>
+    <img src="thdpc.png" width="400px" height="300px">
+    </div>
+
+  </div>
+</body>
+
+</html>
