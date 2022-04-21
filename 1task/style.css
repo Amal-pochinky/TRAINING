@@ -40,10 +40,9 @@
     background-color: #F66D79;
     width:50%;
     height: 60%;
-    float: left;
   }
   article h2{
-    padding: 4rem 0;
+    padding: 5rem 0;
   }
   footer{
     background-color: #0079B3;
@@ -57,6 +56,4 @@
     text-align: center;
     color: white;
   }
-  .d2{
-    display:inline;
-  }
+  
